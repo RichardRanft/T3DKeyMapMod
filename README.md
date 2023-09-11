@@ -1,5 +1,5 @@
 # T3DKeyMapMod
-A simple tool for managing key maps in T3D
+A simple tool for managing key maps in T3D 3.6 and earlier.
 
 This tool removes the keymap block from the (approximate) middle of optionsDlg.cs and into a new file called keyMap.cs in the same folder.  It adds a line at the top of optionsDlg.cs to execute the new keyMap.cs file.  It also provides an interface for examining and changing the key map for the project selected.
 
