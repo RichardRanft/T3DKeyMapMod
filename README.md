@@ -1,6 +1,9 @@
 # T3DKeyMapMod
 A simple tool for managing key maps in T3D 3.6 and earlier.
 
+THIS IS NOT A GAME ENGINE.
+The T3D game engine is here - https://github.com/TorqueGameEngines/Torque3D
+
 This tool removes the keymap block from the (approximate) middle of optionsDlg.cs and into a new file called keyMap.cs in the same folder.  It adds a line at the top of optionsDlg.cs to execute the new keyMap.cs file.  It also provides an interface for examining and changing the key map for the project selected.
 
 It assumes that the optionsDlg.cs file is located in (project)/game/scripts/gui - select the (project) folder when opening a project.  If you need to change this, have at it.
